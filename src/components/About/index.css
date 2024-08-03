@@ -1,0 +1,20 @@
+
+.about-container{
+    margin-top: 35px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-container{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to left, red, orange);
+}
+
+
+
+
+

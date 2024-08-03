@@ -1,0 +1,32 @@
+
+.checkout-img{
+    height: 70px;
+    border-radius: 90px;
+    width: 70px;
+}
+
+.main-container{
+    display: flex;
+}
+
+.items-container{
+    overflow-y: auto;
+    max-height: 70vh;
+}
+
+
+.checkout-form{
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-image: linear-gradient(to left, red,orange);
+}
+
+.list-cart{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+
+
+
+

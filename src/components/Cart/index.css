@@ -1,0 +1,25 @@
+.cart-image{
+    height: 80px;
+    width: 80px;
+    border-radius: 70px;
+}
+.cart-container{
+    height: 100vh;
+} 
+.fw-semibold{
+    font-size: 12px;
+}
+.remove-btn{
+    border: none;
+    font-size: 25px;
+
+}
+
+li{
+    list-style-type: none;
+}
+
+li:hover{
+    box-shadow: inset;
+    background-color: aliceblue;
+}

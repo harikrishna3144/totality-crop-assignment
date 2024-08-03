@@ -1,0 +1,27 @@
+.home{
+    height: 100vh;
+    
+}
+
+.item-img{
+    height: 250px;
+}
+
+.carousel-img{
+    height: 300px;
+    width: 100vw;
+}
+
+.product-img-container{
+    display: flex;
+    height: 120px;
+}
+
+.bg-img{
+    height: 100px;
+
+} 
+
+.btn-background{
+    height: 100px;
+}

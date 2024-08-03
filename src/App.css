@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+.App{
+  margin-top: 90px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.list{
+  padding: 4px 10px;
+  text-decoration: none;
+  font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list1{
+  font-size: 26px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.count{
+  border-radius: 8px;
+  color: #fff;
+  padding: 3px 6px;
+  background-color: red;
+  font-weight: 900;
+  font-size: 12px;
+}
+
+.home{
+  height: 100vh;
+  margin-top: 50px;
+}
+
+.img{
+  height: 400px;
+  width: 100%;
+  margin-top: 10px;
+  background-position: center;
+  background-size: cover;
+}
+
+.con{
+  margin-top: 40px;
+}
+
+.logo-name{
+  border-radius: 70px;
+  padding: 5px 10px 3px 10px;
+  margin-right: 3px;
+  color:white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.brand-name{
+  color: rgb(120, 200, 16);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.main-search{
+  border-radius: 19px;
+  border: 2px solid #222;
+}
+
+.search-input{
+  border-radius: 6px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-left: none;
+}
+
+.search-btn{
+  border: none;
+  background-color: blue;
+  border-radius: 8px;
+}
+
+.new-update{
+  margin-top: 5px;
+  background-image: linear-gradient(to left, orange,red);
+}
+
+.cart{
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

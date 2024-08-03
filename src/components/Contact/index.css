@@ -1,0 +1,53 @@
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+
+
+
+@media screen and (max-height:576px){
+    .contact-container{
+        min-height: 100vh;
+   
+    }
+    .sub-container{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .contact-img{
+        height: 395px;
+        border-radius: 22px;
+    }
+}
+
+@media screen and (min-height:576px){
+    .contact-container{
+        min-height: 90vh;
+        border-radius: 12px;
+
+    }
+    .sub-container{
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .contact-img{
+        height: 390px;
+        border-radius: 22px;
+    }
+}
+
